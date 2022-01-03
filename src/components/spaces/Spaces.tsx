@@ -25,6 +25,7 @@ export class Spaces extends Component<SpacesProps, SpacesState> {
     };
     // without this callback fns wont have correct ctx
     this.reserveSpace = this.reserveSpace.bind(this);
+    this.closeModal = this.closeModal.bind(this);
   }
 
   async componentDidMount() {
