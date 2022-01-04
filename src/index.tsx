@@ -6,7 +6,10 @@ import { App } from "./components/App";
 // import React from "react";
 // import reportWebVitals from "./reportWebVitals";
 
+/* istanbul ignore file */
 ReactDOM.render(
+  // jest/istanbul ignore converage
+  // for reportWebVitals
   // <React.StrictMode>
   //</React.StrictMode>
   <App />,
