@@ -13,7 +13,7 @@ import { Spaces } from "./spaces/Spaces";
 interface AppState {
   user: User | undefined;
 }
-
+/* istanbul ignore file */
 export class App extends React.Component<{}, AppState> {
   private authService: AuthService = new AuthService();
   private dataService: DataService = new DataService();
