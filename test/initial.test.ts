@@ -4,4 +4,4 @@ describe("Just check if test setup is working", () => {
   });
 });
 
-// export {};
+export {};
