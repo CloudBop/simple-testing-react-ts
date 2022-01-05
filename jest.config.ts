@@ -19,6 +19,8 @@ const config: Config.InitialOptions = {
     // ignore these
     "!src/services/**",
     "!src/react-app-env.d.ts",
+    "!src/originalTest.tsx",
+    "!src/reportWebVitals.ts",
   ],
 };
 export default config;
